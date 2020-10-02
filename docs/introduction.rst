@@ -123,17 +123,17 @@ DIFFERENTIAL PRIVACY IN USE
 
 Top tech companies are using “Differential Privacy” in their day to day business for the privacy of data. Some of the use cases are here as follows:
 
-* Uber
+* UBER
 
 Uber, a popular ride-sharing company uses Differential Privacy in its practices. The company uses a method of Differential Privacy called “`elastic sensitivity <https://github.com/uber-archive/sql-differential-privacy>`_”, developed in the University of California at Berkeley. It uses mathematics to set limits on the number of statistical queries  the staff can conduct on traffic patterns and driver’s revenue. This method also ensures addition of noise in case the potential of a privacy breach is more severe.
 
 
-* Apple 
+* APPLE 
 
 Apple also makes use of differential privacy to analyse user behaviour and improve user experience. Accessing private data such as browsing history, apps that we browse, words that we type etc can compromise user privacy. But these data are extremely useful when it comes to improving user experience. Apple makes use of “`Local Differential Privacy <https://machinelearning.apple.com/research/learning-with-privacy-at-scale>`_” algorithms which ensures that the raw data is randomized before sending it to the servers. This approach is implemented at scale across on millions of users and by harnessing this data various business decisions are taken. 
 
 
-* Google
+* GOOGLE
 
 Google also uses this novel approach to keep user data private to themselves and perform data analysis with that data to drive some of their core products. One such product is the Gboard (Google Keyboard), where it uses private data of the user to generate word suggestions. The method used is “Federated Learning” which decreases the reliance on the cloud and puts a strong focus on a user’s privacy. Rather than sending encrypted data to the servers, it downloads the current model on device and improves it by learning from the data on device. The updated model with the changes is sent to the cloud using encrypted communication. This is done at scale across all users and the updates from each user is immediately averaged with other updates to improve the shared model. In the year 2019, `Google open sourced the Differential Privacy  library <https://developers.googleblog.com/2019/09/enabling-developers-and-organizations.html>`_
 for others to use. 
